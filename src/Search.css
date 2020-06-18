@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  color: #222;
+}
+h1 {
+  color: #4286f4;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+div {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  font-size: 16px;
+  outline: none;
+}
+button {
+  padding: 12px 10px;
+  width: 30%;
+  border-radius: 4px;
+  background-color: #4286f4;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.Meals-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  margin-top: 60px;
+}
+
+.Meal {
+  margin: 10px;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+}
+.Meal img {
+  width: 100%;
+}
